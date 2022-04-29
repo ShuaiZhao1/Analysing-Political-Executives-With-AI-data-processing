@@ -4,3 +4,5 @@
 # need to de deleted in the end.
 AnalysingPoliticalExecutivesWithAI.ipynb
 *.png
+
+AutogluonModels/

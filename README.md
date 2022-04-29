@@ -1,6 +1,6 @@
 # code for Shuai Zhao's paper of Analysing Political Executives With AI data processing
 
-- TBD
+## data processiong
 
 need one plot for the data processiong.
 
@@ -29,3 +29,5 @@ classDiagram
     }
             
 ```
+
+## AutoGluon
