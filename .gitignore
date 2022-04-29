@@ -1,3 +1,5 @@
 *.docx
 *.pptx
 *.txt
+# need to de deleted in the end.
+AnalysingPoliticalExecutivesWithAI.ipynb
