@@ -24,12 +24,18 @@ classDiagram
       -canEat()
     }
     class Zebra{ 
-      
+
       +bool is_wild
       +run()
     }
             
 ```
+
+## Working environment
+
+### Colab
+
+### Docker and clould
 
 ## AutoGluon
 
@@ -62,6 +68,7 @@ Do one of the following:
 
 * [Clone this repository](https://github.com/anthony-wang/BestPractices.git) to a directory of your choice on your computer.
 * [Download an archive of this repository](https://github.com/anthony-wang/BestPractices/archive/master.zip) and extract it to a directory of your choice on your computer.
+* [Using Colab]() to run this repository.
 
 
 ### Install dependencies via Anaconda:
@@ -77,7 +84,7 @@ For more information about creating, managing, and working with Conda environmen
 
 
 ### Install dependencies via `pip`:
-Open `conda-env.yml` and `pip install` all of the packages listed there.
+Open `conda-env.yml` and `pip install` all of the packages listed there. 
 We recommend that you create a separate Python environment for this project.
 
 
@@ -97,6 +104,3 @@ Some other handy keyboard shortcuts to know:
 | `Ctrl + S` | Save |
 
 For more information about how to use Jupyter notebooks, you can consult the [official Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) as well as the wealth of available information online.
-
-## Julia version via Pluto.jl
-A julia implementation can be found in the folder [pluto_notebooks](pluto_notebooks/). Additional instructions for setup are provided in the README file there. In general much of the same workflow has been kept in place the major difference is the use of julia equivalent packages (e.g., DataFrames.jl for Pandas).
