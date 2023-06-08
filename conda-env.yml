@@ -1,8 +1,8 @@
-name: ML_in_political_science
+name: test
 channels:
   - conda-forge
 dependencies:
-  - python=3.7.*
+  - python=3.11.*
   - numpy=1.18.*
   - pandas=1.0.*
   - pandas-profiling=2.8.*
@@ -10,6 +10,8 @@ dependencies:
   - seaborn=0.10.*
   - scikit-learn=0.22.*
   - scipy=1.4.*
-  - tqdm=4.43.*
+  - tqdm
   - ipython
   - jupyter
+
+  # need update from my own codes.
