@@ -2,8 +2,7 @@
 *.txt
 # need to de deleted in the end.
 AnalysingPoliticalExecutivesWithAI.ipynb
-*.png
 Notebooks/test.ipynb
+Notebooks/agModels-predictClass/
 
-
-AutogluonModels/
+Notebooks/AutogluonModels/
