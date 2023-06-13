@@ -56,7 +56,7 @@ def act_pred(y_act, y_pred,
     ax2.plot(y_act, y_pred, 'o', mfc=mfc, alpha=0.5, label=None,
              mec=mec, mew=1.2, ms=5.2)
 
-    ax2.plot([-10**9, 10**9], [-10**9, 10**9], 'k--', alpha=0.8,
+    ax2.plot([-10, 10], [-10, 10], 'k--', alpha=0.8,
              label='ideal')
 
     ax2.set_ylabel('Predicted value (% per year)')
