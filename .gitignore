@@ -7,3 +7,6 @@ Notebooks/agModels-predictClass/
 # Notebooks/SHAP*.ipynb
 
 Notebooks/AutogluonModels/
+
+# data from world bank
+Data/WDI_CSV_2024_06_28/
