@@ -1,43 +1,24 @@
-# code for Shuai Zhao's paper of Analysing Political Executives With AI data processing
+# code for Shuai Zhao's thesis
 
 ## data processiong
 
-need one plot for the data processiong.
-
-
-```mermaid
-classDiagram
-    Data_all <|-- County
-    Data_all <|-- Archigos_data 
-    Data_all <|-- Zebra
-    Data_all : +int age
-    Data_all : +String gender
-    Data_all : +isMammal()
-    Data_all : +mate()
-    class County{
-      +String beakColor
-      +swim()
-      +quack()
-    }
-    class Archigos_data {
-      -int sizeInFeet
-      -canEat()
-    }
-    class Zebra{ 
-
-      +bool is_wild
-      +run()
-    }
-            
-```
 
 ## Working environment
 
+You can use conda or pip to install.
+
+```shell
+# Install the numpy and pandas for data anlysis in Python
+# Install the matplotlib and seaborn for data analysis and visualisation
+# Install the tqdm for showing progress bar
+conda install seaborn pandas matplotlib numpy IPython openpyxl tqdm
+```
+
+```shell
+pip install seaborn pandas matplotlib numpy IPython openpyxl tqdm
+```
+
 ### Colab
-
-### Docker and clould
-
-## AutoGluon
 
 
 ## Opening the Jupyter notebooks
