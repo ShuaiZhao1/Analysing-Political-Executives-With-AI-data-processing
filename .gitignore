@@ -10,3 +10,13 @@ Notebooks/AutogluonModels/
 
 # data from world bank
 Data/WDI_CSV_2024_06_28/
+
+# unrelated to this paper
+LLM/
+Notebooks/ML_figures/
+
+# OS / notebook / python junk
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
